@@ -1,0 +1,278 @@
+/*********************************************/
+/* BELLOW 1200px */
+/*********************************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .header .container {
+    padding: 0;
+  }
+  .banner .container {
+    padding: 0;
+  }
+  .footer-col {
+    width: 100%;
+  }
+}
+
+/*********************************************/
+/* BELLOW 944px */
+/*********************************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .main-text {
+    font-size: 4.4rem;
+  }
+  .hero-img {
+    background-size: contain;
+    background-position: bottom;
+    height: 50vh;
+  }
+  .banner .primary-header {
+    font-size: 3.8rem;
+  }
+  .how-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+    text-align: center;
+  }
+  .how-body .read-more {
+    margin: 0 auto;
+  }
+  .work-video {
+    height: 28rem;
+  }
+  .work-slide {
+    height: 27.5rem;
+  }
+  .banner-text-box {
+    padding: 2.4rem;
+  }
+}
+/*********************************************/
+/* BELLOW 800px */
+/*********************************************/
+@media (max-width: 50em) {
+  .grid {
+    column-gap: 3.2rem;
+    row-gap: 6.4rem;
+  }
+  .main-nav-list {
+    display: none;
+  }
+  .magic-button {
+    display: block;
+  }
+  .main-nav {
+    justify-content: end;
+  }
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+    position: relative;
+  }
+  .text-box {
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  .hero-img {
+    background-size: contain;
+    background-position: bottom;
+    height: 30vh;
+    width: 40%;
+    justify-self: end;
+    margin-top: -12rem;
+  }
+  .pricing-plans {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: 3.2rem;
+  }
+  .testemonials-container {
+    padding: 8rem;
+  }
+  .download-text-box {
+    width: 75%;
+  }
+  .banner .container {
+    display: block;
+  }
+  .banner-img-box {
+    display: none;
+  }
+  .banner-text-box {
+    padding: 4.8rem;
+    width: 75%;
+  }
+  .features-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+  .features-content {
+    margin-top: 0;
+    text-align: center;
+  }
+  .features-content:first-child {
+    justify-self: center;
+  }
+  .features-image {
+    height: 80vh;
+  }
+  .work-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4.8rem;
+  }
+}
+/*********************************************/
+/* BELLOW 600px */
+/*********************************************/
+@media (max-width: 38em) {
+  * {
+    line-height: 1.4;
+  }
+  .grid--2-cols,
+  .grid--4-cols,
+  .grid--3-cols {
+    grid-template-columns: 1fr !important;
+  }
+  .subheading {
+    font-size: 1.6rem;
+  }
+  .secondary-header {
+    font-size: 2rem;
+  }
+  .banner-text-box {
+    text-align: center;
+    padding: 3.2rem;
+    width: 90%;
+  }
+  .banner-options {
+    text-align: left;
+    display: flex;
+    row-gap: 3.2rem;
+    flex-direction: column;
+    align-items: start;
+  }
+  .features-content {
+    width: 100%;
+  }
+  .features-box {
+    text-align: left;
+  }
+  .features-image {
+    height: 60vh;
+  }
+  .work-boxes {
+    display: block;
+    padding: 3.2rem;
+  }
+  .work-box {
+    width: 75%;
+    margin: 0 auto 3.2rem auto;
+    padding: 4.8rem;
+  }
+  .work-box img {
+    height: 4.8rem;
+  }
+  .work-number {
+    font-size: 3rem;
+  }
+  .work-content {
+    display: block;
+  }
+  .work-textbox {
+    margin: 0 0 4.8rem 0;
+  }
+  .work-slide {
+    height: 100%;
+  }
+
+  .controllers {
+    display: none;
+  }
+  .download {
+    padding: 9.6rem 0;
+  }
+  .download-text-box {
+    width: 90%;
+  }
+
+  .download .primary-header {
+    font-size: 3rem;
+  }
+  .download-btn {
+    border-radius: 1.4rem;
+  }
+  .testemonials-container {
+    padding: 6.8rem 3.2rem;
+    text-align: center;
+    flex-direction: column;
+  }
+  .testemonials-text {
+    line-height: 1.6;
+  }
+  .testemonials-controll {
+    justify-content: center;
+  }
+  .testemonials-btns {
+    display: none;
+  }
+  .sponcers-header {
+    width: 65%;
+  }
+  .sponcers-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 8rem;
+    gap: 3.2rem;
+  }
+  .sponcers-logo:last-child {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .footer-container {
+    display: block;
+    text-align: center;
+  }
+  .footer-col {
+    margin-bottom: 3.2rem;
+  }
+  .footer-nav {
+    font-size: 1.8rem;
+  }
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.8rem;
+  }
+  .custom-footer-col {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts {
+    align-items: center;
+    gap: 1.6rem;
+  }
+  .footer-btn {
+    margin-bottom: 2.4rem;
+  }
+  .copy-right {
+    display: block;
+  }
+  .copy-right p {
+    text-align: center;
+  }
+  .footer-read-more:link,
+  .footer-read-more:visited {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 2.4rem;
+  }
+}
